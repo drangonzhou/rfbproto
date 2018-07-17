@@ -1,3 +1,6 @@
+
+中文版RFB协议，见 [rfbproto-cn.md](https://github.com/drangonzhou/rfbproto-cn/rfbproto-cn.md)
+
 This directory contains the RFB protocol specification. This is a
 community oriented version of the specification that RealVNC maintains
 and the purpose of this version is to be a complete description of the
