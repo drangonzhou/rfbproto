@@ -15,25 +15,19 @@ RFB（”remote framebuffer“）是一个用于远程访问图形用户界面�
 用户所在的远程端点（例如显示器加上键盘或指针）被称为RFB客户端或查看器。
 而发生framebuffer更改的端点（例如窗口系统和应用程序）被称为RFB服务器。
 
-RFB is truly a "thin client" protocol. The emphasis in the design of
-the RFB protocol is to make very few requirements of the client. In
-this way, clients can run on the widest range of hardware, and the task
-of implementing a client is made as simple as possible.
+RFB实际上是一个“瘦客户机”协议。RFB协议设计的重点是对客户端的需求很少。
+因此，客户端可以运行在最广泛的硬件上，同时实现一个客户端的任务是尽可能简单的。
 
-The protocol also makes the client stateless. If a client disconnects
-from a given server and subsequently reconnects to that same server,
-the state of the user interface is preserved. Furthermore, a different
-client endpoint can be used to connect to the same RFB server. At the
-new endpoint, the user will see exactly the same graphical user
-interface as at the original endpoint. In effect, the interface to the
-user's applications becomes completely mobile. Wherever suitable
-network connectivity exists, the user can access their own personal
-applications, and the state of these applications is preserved between
-accesses from different locations. This provides the user with a
-familiar, uniform view of the computing infrastructure wherever they
-go.
+这个协议还使客户端无状态。如果一个客户端和某个服务器断开连接，
+然后重新连接到相同的服务器，用户界面的状态是保留的。
+更进一步，不同的客户端端点可用于连接到相同的RFB服务器。
+在新的端点，用户将看到与原始端点完全相同的图形用户界面。
+实际上，用户的应用程序的界面变得完全移动的。任何有合适的网络连接存在的地方，
+用户可以访问他们自己的应用程序，而且在不同地方访问时，这些应用程序的状态会被保存起来。
+这样无论用户去到哪里，都可以给用户提供一个熟悉的统一视觉的计算设施。
 
-Display Protocol
+
+显示协议
 ================
 
 The display side of the protocol is based around a single graphics

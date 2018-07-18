@@ -1,5 +1,5 @@
 
-中文版RFB协议，见 [rfbproto-cn.md](https://github.com/drangonzhou/rfbproto-cn/rfbproto-cn.md)
+涓枃鐗圧FB鍗忚锛岃 [rfbproto-cn.md](https://github.com/drangonzhou/rfbproto-cn/rfbproto-cn.md)
 
 This directory contains the RFB protocol specification. This is a
 community oriented version of the specification that RealVNC maintains
@@ -34,6 +34,7 @@ It is not apparent in the document how awesome the RFB protocol is.
 Clarify this in the header so that new readers quickly get up to
 speed.
 
+<pre>
 Signed-off-by: John Doe <john.doe@example.com>
 ---
 
@@ -51,7 +52,7 @@ Index: rfbproto.rst
  RFB ("remote framebuffer") is a simple protocol for remote access to
  graphical user interfaces. Because it works at the framebuffer level it
  is applicable to all windowing systems and applications, including X11,
-
+</pre>
 
 Style Guidelines
 ----------------
