@@ -12,13 +12,8 @@ RFB（”remote framebuffer“）是一个用于远程访问图形用户界面�
 因为它工作在framebuffer层次，所以可以应用在各种窗口系统和应用程序，
 包括X11窗口和Macintosh。RFB是VNC（虚拟网络计算）所使用的协议。
 
-
-
-
-The remote endpoint where the user sits (i.e. the display plus keyboard
-and/or pointer) is called the RFB client or viewer. The endpoint where
-changes to the framebuffer originate (i.e. the windowing system and
-applications) is known as the RFB server.
+用户所在的远程端点（例如显示器加上键盘或指针）被称为RFB客户端或查看器。
+而发生framebuffer更改的端点（例如窗口系统和应用程序）被称为RFB服务器。
 
 RFB is truly a "thin client" protocol. The emphasis in the design of
 the RFB protocol is to make very few requirements of the client. In
